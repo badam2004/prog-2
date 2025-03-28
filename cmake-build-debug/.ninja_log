@@ -1,0 +1,10 @@
+# ninja log v6
+1	130	7649072989144879	CMakeFiles/prog_2.dir/main.cpp.obj	36c89e6d200cde44
+6	649	7649072989186365	CMakeFiles/prog_2.dir/Content.cpp.obj	9a260709740c0243
+18	716	7649072989307261	CMakeFiles/prog_2.dir/User.cpp.obj	aef9588d24d4f330
+10	717	7649072989229319	CMakeFiles/prog_2.dir/Article.cpp.obj	2f5da432b14f9371
+14	718	7649072989274015	CMakeFiles/prog_2.dir/Comment.cpp.obj	2be5dd309d1478f5
+23	836	7649072989351761	CMakeFiles/prog_2.dir/NewsPortal.cpp.obj	60c01d401fc0315a
+836	920	7649072997493817	prog_2.exe	4a74b6dce080d332
+17	679	7649073816643748	CMakeFiles/prog_2.dir/main.cpp.obj	36c89e6d200cde44
+679	797	7649073823261530	prog_2.exe	4a74b6dce080d332
