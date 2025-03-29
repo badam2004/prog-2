@@ -13,6 +13,8 @@ public:
 
     bool canPost() const { return role == "author" || role == "admin"; }
     bool canComment() const { return true; }
+    bool canModify() const { return role == "admin";}
+    bool canDelete() const { return role == "admin";}
     void showDashboard() const {
         std::cout << username << " irányítópultja (" << role << ")\n";
     }

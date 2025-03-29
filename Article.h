@@ -10,8 +10,7 @@ class Article : public Content {
     std::string content;
     std::string author;
 public:
-    Article(std::string t, std::string c, std::string a)
-        : title(std::move(t)), content(std::move(c)), author(std::move(a)) {}
+    Article(std::string t, std::string c, std::string a): title(std::move(t)), content(std::move(c)), author(std::move(a)) {}
 
     void display() const override {
         std::cout << "Cikk: " << title << "\nSzerző: " << author << "\n" << content << "\n";
