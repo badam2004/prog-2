@@ -21,7 +21,23 @@ public:
     bool canModify() const { return role == Role::ADMIN; ;}
     bool canDelete() const { return role == Role::ADMIN; ;}
     void showDashboard() const {
-        std::cout << username << " irányítópultja (" << role << ")\n";
+        std::string user_role;
+        switch (role) {
+            case Role::READER:
+                user_role = "reader";
+            break;
+            case Role::AUTHOR:
+                user_role = "author";
+            break;
+            case Role::ADMIN:
+                user_role = "admin";
+            break;
+
+            default:
+                user_role = "Not defined";
+            break;
+        }
+        std::cout << username << " irányítópultja (" << user_role << ")\n";
     }
 };
 
